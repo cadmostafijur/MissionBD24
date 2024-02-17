@@ -1,0 +1,382 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', sans-serif;
+}
+.banner_main{
+    max-width: 1320px;
+    margin: auto;
+}
+.banner{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/Bannerimage.png');
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 50px;
+}
+.ban_font{
+    color: #eae0e0;
+    text-align: center;
+    padding: 177px 344px;
+}
+.ban_font h2{
+    font-family: 'Merriweather';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.ban_font h1{
+    font-family: 'Merriweather';
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
+.head_cont{
+    text-align: center;
+}
+.offhead h1{
+    margin-top: 120px;
+    color: rgb(131, 63, 63);
+    font-size: 88px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.offhead h5{
+    margin-top: 48px;
+    color: #F00;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.offhead p{
+    margin-top: 10px;
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.head_cont img{
+    margin-top: 48px;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+.out_ban{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(160, 127, 224, 0) 100%), url('../resources/Vectorrr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    height: 600px;
+    margin-top: 120px;
+}
+.out_ban_in h3{
+    color: #FFF;
+    font-family: 'Merriweather';
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+    padding-top: 126px;
+   padding-left: 126px;
+}
+.out_ban_in p{
+    padding: 25px 0;
+    color: #ffffffcc;
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 24px;
+   padding-left: 126px;
+}
+.out_ban_in button{
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 38px;
+    margin-left: 126px;
+    color: #fff;
+    background: #000;
+}
+.logo_y{
+    padding: 68px 138px 67px 0;
+}
+.containers{
+    width: 100%;
+    padding: 80px;
+    background: linear-gradient(180deg, rgba(108, 232, 50, 0.233) 0%, rgba(195, 93, 93, 0.075) 100%);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 16px;
+}
+.containers h3{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 50px;
+}
+.containers span{
+    color: rgb(171, 87, 8);
+}
+.btn{
+    margin-top: 30px;
+    color: #fff;
+        background-color: rgb(193, 148, 148);
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 15px 25px;
+        cursor: pointer;
+    
+}
+.containerm{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+.containerd{
+    flex: 1;
+}
+.containerm .Ellipse{
+    padding: 10px;
+    border-radius: 50%;
+    border: 10px solid rgb(160, 81, 81);
+}
+.containerm h4{
+    color: rgb(224, 158, 158);
+    font-size: 20px;
+    font-weight: 500;
+}
+.containerm h2{
+    color: #070211;
+    font-size: 45px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.containerm h1{
+    color: rgb(255, 221, 0);
+    font-size: 50px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+.containerm p{
+    color: #07021199;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.containerm .Happy{
+    margin-top: 15px;
+}
+.holidays{
+    text-align: center;
+    margin-top: 120px;
+}
+.holidays h4{
+    color: #070211;
+    font-family: "Inter", sans-serif ;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 16px;
+}
+.holidays span{
+    color: rgb(255, 221, 0);
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays h1{
+    font-family: "Merriweather", serif;
+    font-size: 72px;
+    font-weight: 900;
+}
+.holidays p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+.holidays-img{
+    background: url('../resources/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin-top: 30px;
+}
+.holidays-img{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    z-index: 1;
+    width: 430px;
+    height: 430px;
+    position: relative;
+}
+.image-1{
+    position: absolute;
+    top: 90px;
+    left: -180px;
+}
+.gift-section{
+    margin-top: 120px;
+}
+.gift-section h4{
+    color: rgb(0, 251, 255);
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.image-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.subscrb-section{ 
+    margin-top: 120px;
+    background-color: #fff2f2;
+    border-radius: 16px;
+    text-align: center;
+    padding-top: 80px;
+} 
+.subscrb-section h1{
+    color: #070211;
+    font-family: 'Merriweather';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.subscrb-section p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 22px;
+}
+.btnmary{
+    margin-bottom: 22px;  
+   width: 210px;
+   height: 72px;
+   background-color: rgb(123, 0, 255);
+   color: aliceblue;
+   border-radius: 0px 50px 50px 0px; 
+   font-size: 20px;
+   font-weight: 600px;
+   margin-top: 48px;
+}
+input{
+    margin-bottom: 22px;
+    width: 438px;
+    height: 72px;
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+    color: rgba(7, 2, 17, 0.30);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    left: 8px;
+    margin-top: 48px;
+}
+footer{
+    margin-top: 120px;
+    background-color: #070211 ;
+    height: 609px;
+    font-family: 'Inter';
+}
+.footer .address {
+     color: #FFF;
+     font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500px;
+    line-height: 40px;
+    margin-top: 120px;
+    margin-left: 140px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+     color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px; 
+  margin-top: 120px;
+  margin-right: 291px;
+}
+.website{
+    color: #fff;
+    font-size: 20px;
+}
+.footer .contact img{
+    height: 15px;
+    width: 15px;
+}
+hr{
+    background: rgba(255, 255, 255, 0.15);
+  height: 1px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  border: none;
+}
+.End-section{
+      display: flex;
+      color: #fff;
+  justify-content: space-between;
+}
+.text-area{
+    font-family: 'Inter';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.subscrb{
+     font-family: Inter;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: normal;
+     margin-top: 50px;
+     margin-right: 140px;
+}
